@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Website – Hsuen-Li Chen</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="language-toggle.js" defer></script>
+</head>
+<body>
+
+    <!-- Language Toggle Button -->
+    <div class="language-toggle">
+        <button id="en-button">English</button>
+        <button id="zh-button">中文</button>
+    </div>
+    <nav>
+        <a href="index.html" data-en="Home" data-zh="首页">Home</a> |
+        <a href="publications.html" data-en="Publications" data-zh="出版物">Publications</a> |
+        <a href="alumni.html" data-en="Alumni" data-zh="校友">Alumni</a> |
+        <a href="photo-sharing.html" data-en="Photo Sharing" data-zh="照片分享">Photo Sharing</a>
+    </nav>
+    
+    <!-- Home Section with Image -->
+    <section id="home" class="content">
+        <h1 data-en="Home Page" data-zh="首页">Home Page</h1>
+        <p data-en="Welcome to Professor Hsuen-Li Chen’s Lab" 
+           data-zh="欢迎来到陈宣利教授的实验室">
+           Welcome to Professor Hsuen-Li Chen’s Lab</p>
+
+        <!-- Adding a banner image -->
+        <img src="images/lab_photo.jpg" alt="Lab Banner" class="banner-image">
+
+    </section>
+
+    <!-- Professor Profile with Profile Image -->
+    <section id="profile" class="content">
+        <h2 data-en="Professor Profile" data-zh="教授简介">Professor Profile</h2>
+        <img src="images/professor.jpg" alt="Professor Hsuen-Li Chen" class="profile-image">
+
+        <p data-en="Distinguished Professor, Department of Material Science & Engineering, NTU"
+           data-zh="台大材料科学与工程系特聘教授">
+           Distinguished Professor, Department of Material Science & Engineering, NTU</p>
+        <ul>
+            <li data-en="Office: Room 456, College of Engineering"
+                data-zh="办公室：工程学院 456 室">Office: Room 456, College of Engineering</li>
+            <li data-en="TEL: +886-2-3366-3240" 
+                data-zh="电话：+886-2-3366-3240">TEL: +886-2-3366-3240</li>
+            <li data-en="E-MAIL: hsuenlichen@ntu.edu.tw"
+                data-zh="邮箱：hsuenlichen@ntu.edu.tw">E-MAIL: hsuenlichen@ntu.edu.tw</li>
+        </ul>
+    </section>
+
+    <!-- Research Section with Image -->
+    <section id="research" class="content">
+        <h2 data-en="Research Interests" data-zh="研究兴趣">Research Interests</h2>
+
+        <ul>
+            <li data-en="Optical analysis of semiconductors and low-dimensional materials"
+                data-zh="半导体和低维材料的光学分析">
+                Optical analysis of semiconductors and low-dimensional materials</li>
+            <li data-en="High-efficiency photo-electron conversion devices"
+                data-zh="高效光电子转换设备">High-efficiency photo-electron conversion devices</li>
+            <li data-en="Nanofabrication using DUV and EUV lithography"
+                data-zh="使用DUV和EUV光刻技术进行纳米加工">Nanofabrication using DUV and EUV lithography</li>
+        </ul>
+
+        <!-- Research image -->
+        <img src="images/research.jpg" alt="Nanotechnology Research" class="research-image">
+    </section>
+
+</body>
+</html>
